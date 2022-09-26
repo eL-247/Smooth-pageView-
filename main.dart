@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pagescroll/pages.dart';
+import 'package:pagescroll/pipePage.dart';
+import 'package:pagescroll/widgets/widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const CusttomPageView(),
+      home: const Pipe(),
     );
   }
 }
